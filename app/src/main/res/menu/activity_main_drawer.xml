@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_my_location_24"
+            android:title="@string/menu_ubicacin" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="@string/menu_servicios" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/baseline_work_24"
+            android:title="@string/menu_fincas" />
+    </group>
+
+    <item android:title="Comunicación">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_touch_app_24"
+                android:title="@string/menu_urgencias" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/round_supervisor_account_24"
+                android:title= "@string/menu_contacto" />
+        </menu>
+    </item>
+
+</menu>
